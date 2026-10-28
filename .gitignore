@@ -1,0 +1,29 @@
+# 运行期产物 / 真实凭证：不入库
+nodes_decrypted.json
+nodes_raw.json
+nodes_raw_keyed.json
+xray_nodes.json
+xray_alive.json
+xray_mux_test.json
+xray_map.json
+xray_map_alive.json
+proxies*.txt
+*.log
+capture*.jsonl
+demo_snapshot.json
+probe*.json
+speed_result.json
+all_strings.txt
+keys_b64.txt
+apk_x/
+jadx_out/
+jadx_res/
+__pycache__/
+# 真实凭证 / 抓包原文 / 订阅产物（含可用 UUID+reality 公钥）
+dbpull/
+short_A_raw.json
+halo_clash.yaml
+vless_sub.txt
+screen*.png
+ui*.png
+nodes_refresh_test.json
