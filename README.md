@@ -36,11 +36,11 @@ python probe.py --map xray_map.json --workers 12 --timeout 10
 python speedtest.py --workers 6
 
 # 4) demo（页面 + 订阅 + proxies.txt）
-python demo_server.py --port 8940
-# http://127.0.0.1:8940/        节点表（存活/出口IP/延迟）
-# http://127.0.0.1:8940/proxies.txt   socks5 清单（new-api 直接读）
-# http://127.0.0.1:8940/sub           vless 订阅（base64）
-# http://127.0.0.1:8940/sub/clash     Clash/mihomo YAML
+python demo_server.py --port 8941
+# http://127.0.0.1:8941/        节点表（存活/出口IP/延迟）
+# http://127.0.0.1:8941/proxies.txt   socks5 清单（new-api 直接读）
+# http://127.0.0.1:8941/sub           vless 订阅（base64）
+# http://127.0.0.1:8941/sub/clash     Clash/mihomo YAML
 ```
 
 ## 实测数据（2026-10-29，中国出口，直连拨测）
@@ -81,7 +81,7 @@ harvest_adb.py            App 缓存直取刷新（模拟器 Room 库 → 解密
 gen_xray.py               Xray 配置生成
 probe.py                  真实拨测（自建 SOCKS5 客户端，不走系统代理）
 speedtest.py              吞吐测试
-demo_server.py            页面 + 订阅 + proxies.txt（:8940）
+demo_server.py            页面 + 订阅 + proxies.txt（:8941）
 hook_params.js            Frida 钩子（RSA/AES 明文观测，已实测可用）
 docs/                     逆向报告 / 协议手册 / new-api 对接
 ```
