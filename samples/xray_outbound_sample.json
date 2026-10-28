@@ -1,0 +1,30 @@
+{
+ "tag": "o0",
+ "protocol": "vless",
+ "settings": {
+  "vnext": [
+   {
+    "address": "203.0.113.10",
+    "port": 443,
+    "users": [
+     {
+      "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "encryption": "none",
+      "flow": "xtls-rprx-vision"
+     }
+    ]
+   }
+  ]
+ },
+ "streamSettings": {
+  "network": "tcp",
+  "security": "reality",
+  "realitySettings": {
+   "serverName": "origin-xxxxxxxx.example.com",
+   "fingerprint": "chrome",
+   "publicKey": "<reality-public-key-base64url>",
+   "shortId": "<8或16位hex>",
+   "spiderX": "/"
+  }
+ }
+}

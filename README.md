@@ -19,6 +19,20 @@
 | App 缓存直取刷新（免 Frida/免 MITM） | ✅ 已验证 | `harvest_adb.py` 从 Room `swan_cache2` 拉出 141 节点（111 VL-R + 30 IK2）+ clientKey 并全部解密；**触发新拉取需 App 走到主界面（2 次点击）** |
 | 合规判定 | ⛔ 不可直接商用 | 节点为 HaloVPN 自营 VPS（`sec0org/tapbykiwi` 系域名），凭证≠授权 |
 
+
+## 文档索引 / 交接
+
+| 文件 | 给谁看 | 内容 |
+|------|--------|------|
+| **docs/HANDOFF.md** | **对接方（首选）** | 自包含交接包：4 个交付文件、环境准备、new-api 配置、三层验收、运维 SOP、11 条排错表、开场指令 |
+| docs/NEWAPI_INTEGRATION.md | 对接方（补充） | new-api 源码事实核对 + VPS 架构 + 交接清单 |
+| docs/PROTOCOL.md | 二次开发 | 协议手写手册：常量/签名/加密/字段表/最小实现/必避坑 |
+| docs/REVERSE_REPORT.md | 研究/审计 | 完整逆向过程、数据流、未破点、踩坑清单 |
+| SKILL.md | 复用 | 仓库级技能卡（状态表 + 三条命令 + 9 条坑） |
+| samples/ | 对接方 | 脱敏样例：响应结构、解密节点、xray outbound、probe 结果、proxies.txt |
+
+交付状态：`complete`（协议 + 节点池 + demo 全通）；唯一 `partial` = 免 App 纯 HTTP 收割（有 App 缓存直取替代路径）。
+
 ## 快速开始
 
 ```bash

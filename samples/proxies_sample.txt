@@ -1,0 +1,4 @@
+# HaloVPN socks 池（每行一个；new-api: TRYINGOPEN_PROXY_FILE 直接读；# 开头跳过）
+socks5://127.0.0.1:31000
+socks5://127.0.0.1:31001
+socks5://100.64.0.9:31002

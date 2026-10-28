@@ -1,0 +1,22 @@
+[
+ {
+  "port": 31000,
+  "sip": "45.82.102.22",
+  "scc": "RO",
+  "sn": "RO-BUH-8745",
+  "alive": true,
+  "exit_ip": "45.82.102.22",
+  "latency_ms": 1154,
+  "err": ""
+ },
+ {
+  "port": 31001,
+  "sip": "3.255.199.70",
+  "scc": "IE",
+  "sn": "IE-DUB-ffa0",
+  "alive": true,
+  "exit_ip": "3.255.199.70",
+  "latency_ms": 739,
+  "err": ""
+ }
+]
